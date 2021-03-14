@@ -1,0 +1,24 @@
+{
+  "name": "recma-script",
+  "version": "1.0.0",
+  "description": "What if ecmascript was a function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "re:build": "bsb -make-world -clean-world",
+    "re:watch": "bsb -make-world -clean-world -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUSTIVE/Recma-script.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JUSTIVE/Recma-script/issues"
+  },
+  "homepage": "https://github.com/JUSTIVE/Recma-script#readme",
+  "devDependencies": {
+    "bs-platform": "^9.0.2"
+  }
+}
